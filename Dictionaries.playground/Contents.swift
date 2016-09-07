@@ -67,6 +67,6 @@ let movies = [
     "Toy Story": toyStoryFilms,
 ]
 
-for (franchise, titles) in movies {
-    print("There are \(titles.count) movies in the \(franchise) series")
+for (a, b) in movies {
+    print("There are \(b.count) movies in the \(a) series")
 }
